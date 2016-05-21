@@ -1,0 +1,143 @@
+img {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    background-image: url(../img/arches.png);
+    background-repeat: repeat;
+    font-family: "Lucida Grande", "Ubuntu", "微軟正黑體", Verdanna, sans-serif;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    box-shadow: none;
+    -webkit-text-fill-color: transparent;
+}
+
+.wrapper {
+    position: relative;
+    width: 960px;
+    height: auto;
+    left: 50%;
+    margin-left: -480px;
+    border: 0;
+    background-color: #eff;
+}
+
+header {
+    position: relative;
+    width: 960px;
+    height: auto;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: #cce8cc;
+}
+
+header h1 {
+    position: relative;
+    text-align: center;
+    color: #333;
+    letter-spacing: 5px;
+    font-size: 3em;
+}
+
+nav {
+    position: relative;
+    width: 960px;
+    height: auto;
+}
+
+.content {
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+/* ul li Set */
+
+ul {
+    display: flex;
+    position: relative;
+    width: 960px;
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+    background-color: #cddddd;
+}
+
+ul li {
+    position: relative;
+    width: 60px;
+    height: auto;
+    margin: 0;
+    padding: 10px 15px;
+    flex: 1;
+    text-align: center;
+}
+
+ul li a {
+    font-size: 16pt;
+    padding: 80px;
+    text-decoration: none;
+    color: #333;
+}
+
+ul li:hover {
+    font-size: 16pt;
+    background-color: #333;
+    cursor: pointer;
+}
+
+ul li a:hover {
+    font-size: 16pt;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* Pure Table Set */
+
+.pure-table {
+    position: relative;
+    width: 800px;
+    height: auto;
+    left: 50%;
+    margin-left: -400px;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.pure-table th {
+    padding: 15px;
+    font-size: 1.2em;
+    background-color: #48e5c2;
+    letter-spacing: 3px;
+    vertical-align: middle;
+}
+
+.pure-table th:nth-child(2) {
+    text-align: right;
+}
+
+.pure-table tr td img {
+    width: 250px;
+    height: auto;
+}
+
+
+/* Table a */
+
+.pure-table tr th a {
+    display: inline-block;
+    padding: 5px 9px;
+    margin-right: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 0.8em;
+    background-color: #0EA37E;
+    color: #fff;
+    border: 2px solid #0EA37E;
+}

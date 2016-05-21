@@ -1,0 +1,117 @@
+.wrapper {
+    position: relative;
+    width: 960px;
+    height: auto;
+    left: 50%;
+    margin-left: -480px;
+    border: 0;
+    background-color: #000;
+}
+
+header {
+    position: relative;
+    width: 960px;
+    height: auto;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: #f00;
+}
+
+header h1 {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    font-size: 3em;
+}
+
+nav {
+    position: relative;
+    width: 960px;
+    height: auto;
+}
+
+ul {
+    display: inline-block;
+    position: relative;
+    width: 960px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #eee;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+    width: 207px;
+    height: auto;
+    margin: 0;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+nav ul li a {
+    padding: 10px 60px;
+    font-size: 16pt;
+    text-decoration: none;
+    color: #f00;
+}
+
+.content {
+    position: relative;
+    height: auto;
+    text-align: center;
+    margin-top: 30px;
+    background-color: #00f;
+}
+
+#news {
+    position: relative;
+    height: auto;
+    background-color: #88f;
+    margin-top: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#news h3 {
+    position: relative;
+    width: auto;
+    margin: 0;
+    padding: 10px 15px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.3em;
+    background-color: #f00;
+}
+
+#news ul {
+    display: inline-block;
+    position: relative;
+    width: 800px;
+    height: auto;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    text-align: left;
+    font-size: 1.3em;
+    background-color: #eee;
+}
+
+#news ul li {
+    position: relative;
+    width: 700px;
+    height: auto;
+    margin: 0;
+    margin-top: 5px;
+    margin-left: 15px;
+    padding: 5px 10px;
+}
+
+#news ul li a {
+    margin-left: 15px;
+    font-size: 16pt;
+    text-decoration: none;
+    color: #258;
+}
